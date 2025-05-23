@@ -1,0 +1,47 @@
+# === Sensitive Files ===
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+.env.test
+
+# === PHP / Composer ===
+vendor/
+composer.lock
+
+# === Docker ===
+*.local.yml
+docker-compose.override.yml
+.docker/
+*.env.docker
+Dockerfile.*
+
+# ===  Bases de données / SQL Dumps ===
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+
+# === Build / Dist Output (HTML/CSS/JS) ===
+dist/
+build/
+public/build/
+public/dist/
+assets/
+
+# === IDEs / Editors ===
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === Deployment Tools ===
+.deploy/
+.phpunit.result.cache
+
+# === Tests / Coverage ===
+coverage/
+tests/_output/
+phpunit.xml
+.phpunit.result.cache
