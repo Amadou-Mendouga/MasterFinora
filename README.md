@@ -163,7 +163,6 @@ Déploiement
 Hébergement : Utilisez un cloud comme AWS, Heroku, ou DigitalOcean.
 Sécurité :
 Configurez HTTPS avec Let's Encrypt.
-Excluez .env du contrôle de version (echo ".env" >> .gitignore).
 
 
 CI/CD : Configurez GitHub Actions pour automatiser les déploiements.
@@ -174,4 +173,4 @@ Conventions de code : Suivez PSR-12 pour PHP et utilisez Prettier pour TypeScrip
 Tests unitaires : Ajoutez des tests avec PHPUnit dans tests/.
 Issues : Signalez les bugs ou proposez des améliorations via Git.
 
-Pour toute question, contactez [votre nom] à [votre email].
+Pour toute question, contactez Amadou Mendouga ou Philippe Mba à emyrobho@gmail.com.
