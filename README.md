@@ -174,3 +174,8 @@ Tests unitaires : Ajoutez des tests avec PHPUnit dans tests/.
 Issues : Signalez les bugs ou proposez des améliorations via Git.
 
 Pour toute question, contactez Amadou Mendouga ou Philippe Mba à emyrobho@gmail.com.
+
+Valider les commandes
+
+docker exec -it masterfinora-postgres-1 psql -U emyr -d budget_app -c "\d Users"
+docker exec -it masterfinora-postgres-1 psql -U emyr -d budget_app -c "\d PasswordResets"
